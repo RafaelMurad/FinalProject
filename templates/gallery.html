@@ -1,0 +1,21 @@
+<div class="container">
+	
+		<div class="row">
+			<ul id="galleryUnordList" ng-controller="GalleryController">
+			 	<li id="galleryList" class="col-xs-12 col-sm-4 col-md-4 col-lg-4" ng-repeat="image in images">
+				    <a href="{{image.src}}" data-title="{{image.desc}}"" data-lightbox="works">
+					    <img id="galleryImg" ng-src="{{image.src}}" alt="{{image.desc}}" class="img-rounded img-responsive">
+					</a>
+					    <p id="imageDesc">{{image.desc}}</p>
+				    
+			  	</li>
+			</ul>
+		</div>
+	
+</div>
+
+		
+
+
+
+	

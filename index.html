@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app='LucasApp'>
+<head>
+	<title>Desidério Photographs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans|Roboto+Slab|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <script src="https://use.fontawesome.com/aef22d7743.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    
+
+    
+</head>
+<body ng-cloak>
+	<nav-bar></nav-bar>
+	
+	<div ng-view></div>
+
+
+<footer id="myfooter">
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-4 hidden-xs">
+				<h6 class="text-center">Copyright &copy; 2016 Lucas Desiério.</h6>	
+			</div>
+
+			<div class="col-xs-12 col-sm-4">
+
+				<ul class="list-inline text-center center-block">
+					<li><a href="https://www.facebook.com/lucas.desiderio.5?fref=ts"><i id="social-fb" class="fa fa-facebook fa-2x social " aria-hidden="true"></i></a></li>
+
+					<li><a href="https://www.behance.net/lucasdesiderio"><i id="social-be" class="fa fa-behance fa-2x social" aria-hidden="true"></i></a></li>
+
+					<li><a href="https://www.instagram.com/lukede/"><i id="social-in" class="fa fa-instagram fa-2x social" aria-hidden="true"></i></a></li>
+				</ul>
+				
+			</div>
+
+			<div class="col-xs-12 col-sm-4 hidden-xs">
+				<h6 class="text-center">created by: Rafael Murad.</h6>
+			</div>
+			
+		</div>	
+
+	</div>
+	
+</footer>
+	
+
+<script src='js/app.js'></script>
+<script src='js/controller.js'></script>
+<script src='js/service.js'></script>
+<script src='js/directive.js'></script>
+<script src='js/myjquery.js'></script>
+</body>
+</html>
