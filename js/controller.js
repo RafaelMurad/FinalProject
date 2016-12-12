@@ -15,10 +15,4 @@ angular.module('RouteControllers', [])
 })
 
 .controller('ContactController', function($scope){
-		$scope.words=[
-			'Até logo!',
-			'See You soon!',
-			'Hasta la vista!'
-		];
-
 });
